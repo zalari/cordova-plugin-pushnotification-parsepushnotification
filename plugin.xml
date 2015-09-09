@@ -70,10 +70,10 @@
 			<uses-permission android:name="$PACKAGE_NAME.permission.C2D_MESSAGE" />
         </config-file>
 
-        <source-file src="src/android/Parse-1.9.4.jar" target-dir="libs" />
+        <source-file src="src/android/Parse-1.9.2.jar" target-dir="libs" />
         <source-file src="src/android/bolts-android-1.2.0.jar" target-dir="libs" />
-		<source-file src="src/android/ParseCrashReporting-1.9.4.jar" target-dir="libs" />
-		<source-file src="src/android/ParseFacebookUtilsV4-1.9.4.jar" target-dir="libs" />
+		<source-file src="src/android/ParseCrashReporting-1.9.2.jar" target-dir="libs" />
+		<source-file src="src/android/ParseFacebookUtilsV4-1.9.2.jar" target-dir="libs" />
         <source-file src="src/android/ParsePushNotificationPlugin.java" target-dir="src/com/cranberrygame/cordova/plugin/pushnotification/parsepushnotification" />
         <source-file src="src/android/ParseBroadcastReceiver.java" target-dir="src/com/cranberrygame/cordova/plugin/pushnotification/parsepushnotification" />
      </platform>
